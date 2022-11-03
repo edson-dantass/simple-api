@@ -9,5 +9,5 @@ app.get("/", (req, res) => {
   return res.json({messae: "Hello word"})
 })
 
-app.listen(3333, () => console.log("Servidor is runnig..."))
+app.listen(21034, () => console.log("Servidor is runnig..."))
 
