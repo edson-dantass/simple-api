@@ -9,5 +9,5 @@ app.get("/", (req, res) => {
   return res.json({messae: "Hello word"})
 })
 
-app.listen(process.env.PORT || 3333, () => console.log(`Servidor is runnig at port ${port}`))
+app.listen(port, () => console.log(`Servidor is runnig at port ${port}`))
 
